@@ -1,0 +1,15 @@
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
+<!--<mapper namespace="com.example.springbootpractice.mapper.UserMapper">-->
+
+<!--    <select id="findOne" resultType="com.example.springbootpractice.model.UserVO">-->
+<!--        SELECT t.*-->
+<!--        FROM public.member t-->
+<!--        WHERE user_name = 'abc'-->
+<!--    </select>-->
+
+<!--    <insert id="findOne" resultType="com.example.springbootpractice.model.UserVO">-->
+<!--        INSERT INTO member(USER_NAME, PASSWORD) VALUES( 'abc', '1234');-->
+<!--    </insert>-->
+<!--</mapper>-->
