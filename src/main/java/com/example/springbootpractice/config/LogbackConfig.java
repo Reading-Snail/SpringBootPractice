@@ -39,7 +39,7 @@ public class LogbackConfig {
 
     private void createLoggers() {
         // 로거 이름, 로깅 레벨, 상위 로깅 설정 상속 여부 설정
-        createLogger("root", INFO, true);
+//        createLogger("root", INFO, true);
 //        createLogger("jdbc", OFF, false);
 //        createLogger("jdbc.sqlonly", DEBUG, false);
 //        createLogger("jdbc.sqltiming", DEBUG, false);

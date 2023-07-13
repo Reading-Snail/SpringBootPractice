@@ -41,6 +41,8 @@ dependencies {
 	annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 	annotationProcessor("org.projectlombok:lombok")
 	implementation("org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4.1:1.16")
+	implementation("org.springframework.boot:spring-boot-devtools")
+	implementation("io.jsonwebtoken:jjwt-api:0.11.5")
 
 
 	//TEST

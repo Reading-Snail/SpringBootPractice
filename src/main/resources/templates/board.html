@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="onload()">
+
+삭제 id<input id="deleteId">
+
+<button onclick="deleteArticle()">delete</button>
+
+</body>
+<script>
+  function onload() {
+    alert("/article/load");
+      fetch("/article/load")
+          .then((response) => console.log("response:", response.json()))
+          .catch((error) => console.log("error:", error));
+  }
+
+  function deleteArticle() {
+      alert("/article/delete");
+      const deleteId = document.getElementById("deleteId");
+      fetch(`/article/delete/${deleteId}`, {
+          method: "DELETE"
+      })
+          .then((response) => console.log("deleteResponse", response))
+          .then((data) => console.log(data));
+  }
+</script>
+</html>

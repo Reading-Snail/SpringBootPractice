@@ -1,0 +1,10 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springbootpractice.mapper.BoardMapper">
+
+    <select id="selectAritlces">
+        SELECT ARTICLE_ID, ARTICLE_TITLE, ARTICLE_WRITER, PUBLISHED_DATE FROM article ORDER BY ARTICLE_ID DESC
+    </select>
+    
+</mapper>

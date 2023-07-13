@@ -42,7 +42,7 @@ public class DBConfig {
     public SqlSessionFactory sqlSessionFactory(DataSource dataSource) throws Exception {
         SqlSessionFactoryBean session = new SqlSessionFactoryBean();
         session.setDataSource(dataSource);
-        session.setTypeAliasesPackage("com.example.springbootpractice.mapper");
+        session.setTypeAliasesPackage("com.example.springbootpractice.model");
         session.setConfigLocation(new PathMatchingResourcePatternResolver().getResource("classpath:/mybatis-config.xml"));
         return session.getObject();
     }
